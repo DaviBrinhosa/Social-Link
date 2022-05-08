@@ -1,0 +1,20 @@
+@import url(_normalize.css);
+
+@import url(_reset.css);
+
+@import url(_header.css);
+
+@import url(_body.css);
+
+@import url(_footer.css);
+
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+.body {
+    background-color: #37d5d6;
+    background-image: linear-gradient(90deg, #f1e0cb 0%, #f4ede5 50%, #f1e0cb 100%);
+    background-size: cover;
+}
