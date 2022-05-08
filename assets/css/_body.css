@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
 
-    margin: .5rem;
+    margin: .8rem;
     padding: 1rem 4rem;
     border: 2px solid black;
     border-radius: 1.5rem;
@@ -31,7 +31,7 @@
 }
 
 .button_05 {
-    margin: 0 0 5rem 0;
+    margin: .8rem 0 5rem 0;
 }
 
 .text_title {
