@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
 
-    margin: .8rem;
+    margin: .75rem 0;
     padding: 1rem 4rem;
     border: 2px solid black;
     border-radius: 1.5rem;
@@ -28,10 +28,6 @@
     color: black;
     cursor: pointer;
     width: 70%;
-}
-
-.button_05 {
-    margin: .8rem 0 5rem 0;
 }
 
 .text_title {
