@@ -2,11 +2,7 @@
 
 @import url(_reset.css);
 
-@import url(_header.css);
-
-@import url(_body.css);
-
-@import url(_footer.css);
+@import url(_main.css);
 
 @font-face {
     font-family: 'icones';
@@ -14,7 +10,20 @@
 }
 
 .body {
-    background-color: #37d5d6;
-    background-image: linear-gradient(90deg, #f1e0cb 0%, #f4ede5 50%, #f1e0cb 100%);
+    background-color: #EFD9D1;
+    background-image: linear-gradient(90deg, #DDB7AB 0%, #EFD9D1 20%, #EFD9D1 80%, #DDB7AB 100%);
     background-size: cover;
+    font-family: Roboto, sans-serif;
 }
+
+/* Cores Principais:
+#999B84
+#F4EEED
+#EFD9D1
+#DDB7AB
+
+
+BOtão agendar sessão: redirencionar para o whats app, individual de cada uma
+
+Fotos PC -> uma lado da outra e MObile um em cima da outra, marceli depois elisiane
+*/
