@@ -7,8 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"/>
-        <title>Espaço la vie</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900"/>
+        <title id="main_title"></title>
         <link href="./assets/css/base.css" rel="stylesheet" />
     </head>
     <body class="body">
@@ -17,59 +17,65 @@
         </header>
         <main class="main">
             <div class="center__menu">
-                <ul id="item">
-                    <article class="button button_01">
-                        <h3 id="title_01" class="text_title text_title_01"></h3>
-                        <p id="text_01" class="text text_01"></p>
-                    </article>
-                    <article class="button button_02">
-                        <h3 id="title_02" class="text_title text_title_02"></h3>
-                        <p id="text_02" class="text text_02"></p>
-                    </article>
-                    <article class="button button_03">
-                        <h3 id="title_03" class="text_title text_title_03"></h3>
-                        <p id="text_03" class="text text_03"></p>
-                    </article>
-                    <article class="button button_04">
-                        <h3 id="title_04" class="text_title text_title_04"></h3>
-                        <p id="text_04" class="text text_04"></p>
-                    </article>
-                    <article class="button button_05">
-                        <h3 id="title_05" class="text_title text_title_05"></h3>
-                        <p id="text_05" class="text text_05"></p>
-                    </article>
-                    <article class="button button_06">
-                        <h3 id="title_06" class="text_title text_title_06"></h3>
-                        <p id="text_06" class="text text_06"></p>
-                    </article>
-                    <article class="button button_07">
-                        <h3 id="title_07" class="text_title text_title_07"></h3>
-                        <p id="text_07" class="text text_07"></p>
-                    </article>
-                    <article class="button button_08">
-                        <h3 id="title_08" class="text_title text_title_08"></h3>
-                        <p id="text_08" class="text text_08"></p>
-                    </article>
-                    <article class="button button_09">
-                        <h3 id="title_09" class="text_title text_title_09"></h3>
-                        <p id="text_09" class="text text_09"></p>
-                    </article>
-                    <article class="button button_10" onclick="window.open('https://wa.me/5548991782760','_blank')">
-                        <h3 class="text_title text_title_10">
-                            Agendamento - WhatsApp
-                        </h3>
-                        <p class="text text_10"></p>
-                    </article>
-                </ul>
+                <article class="button button_01">
+                    <h3 id="title_01" class="text_title text_title_01"></h3>
+                    <p id="text_01" class="text text_01" style="display: none;"></p>
+                    <div id="img_section" class="img_section">
+                        <img id="img_01" class="img_01" src="./assets/img/quem-sou-marceli.jpg" />
+                        <img id="img_01" class="img_01" src="./assets/img/quem-sou-elisiane.jpg" />
+                    </div>
+                </article>
+                <article class="button button_02">
+                    <h3 id="title_02" class="text_title text_title_02"></h3>
+                    <p id="text_02" class="text text_02" style="display: none;"></p>
+                </article>
+                <article class="button button_03">
+                    <h3 id="title_03" class="text_title text_title_03"></h3>
+                    <p id="text_03" class="text text_03" style="display: none;""></p>
+                </article>
+                <article class="button button_04">
+                    <h3 id="title_04" class="text_title text_title_04"></h3>
+                    <p id="text_04" class="text text_04" style="display: none;"></p>
+                </article>
+                <article class="button button_05">
+                    <h3 id="title_05" class="text_title text_title_05"></h3>
+                    <p id="text_05" class="text text_05" style="display: none;"></p>
+                </article>
+                <article class="button button_06">
+                    <h3 id="title_06" class="text_title text_title_06"></h3>
+                    <p id="text_06" class="text text_06" style="display: none;"></p>
+                </article>
+                <article class="button button_07">
+                    <h3 id="title_07" class="text_title text_title_07"></h3>
+                    <p id="text_07" class="text text_07" style="display: none;"></p>
+                </article>
+                <article class="button button_08">
+                    <h3 id="title_08" class="text_title text_title_08"></h3>
+                    <p id="text_08" class="text text_08" style="display: none;"></p>
+                </article>
+                <article class="button button_09">
+                    <h3 id="title_09" class="text_title text_title_09"></h3>
+                    <p id="text_09" class="text text_09" style="display: none;"></p>
+                </article>
+                <article class="button button_10" onclick="window.open('https://wa.me/5548991782760','_blank')">
+                    <h3 class="text_title text_title_10">
+                        Agendamento - Marceli (WhatsApp)
+                    </h3>
+                </article>
+                <article class="button button_11" onclick="window.open('https://wa.me/5548991782760','_blank')">
+                    <h3 class="text_title text_title_11">
+                        Agendamento - Elisiane (WhatsApp)
+                    </h3>
+                </article>
             </div>
         </main>
-        <script src="./assets/js/text_input.js"></script>
-        <script src="./assets/js/index.js"></script>
         <footer class="footer">
-            <div class="footer__copyright">Developer by Davi Brinhosa ©2022 </div>
+            <div id="copyright" class="footer__copyright"></div>
             <div class="social__icon"></div>
             <div class="social__icon"></div>
             <div class="social__icon"></div>
         </footer>
+        <script src="./assets/js/text_input.js"></script>
+        <script src="./assets/js/index.js"></script>
     </body>
 </html>
