@@ -2,6 +2,7 @@ let main_title = "Espaço la vie";
 
 let title_01 = "Quem Somos";
 let text_01 = "Somos amigas desde 1988. E desde sempre pensávamos em trabalhar juntas. No entanto, a vida nos colocou em caminhos diferentes por muitos anos.<br><br> Nesse meio tempo, fizemos faculdade, tivemos filhos, construímos nossas carreiras (não necessariamente nessa mesma ordem), mas em caminhos distintos: Elisiane na Educação e Marcelli no Meio Ambiente. <br><br> Os filhos cresceram, a vida foi de certa forma se acalmando. Por vezes não nos entendíamos enquanto mulheres: o que queríamos, quem éramos, o que precisávamos entender. <br><br> Cada uma a sua maneira buscou o autoconhecimento, buscou a sua essência. E quis o destino que aqui a junção se concretizasse: Percebemos que, apesar de termos escolhido ferramentas diferentes para nos orientar nesse “Olhar para dentro”, elas se complementavam.<br><br> <b>Assim surge o Espaço La Vie.</b>";
+let img_01 = '<img id="img_01" class="img_01" src="./assets/img/quem-sou-marceli.jpg" /><img id="img_01" class="img_01" src="./assets/img/quem-sou-elisiane.jpg" />';
 
 let title_02 = "Terapia Quântica Integrativa";
 let text_02 = "A <b>Terapia Quântica Integrativa</b> é o resultado da junção do conjunto de práticas e técnicas com foco nos cuidados com a saúde, considerando essa como “um estado de completo bem-estar físico, mental e social e não apenas a ausência de doença”(OMS, 1947). <br><br> O conceito de <b>Terapia Quântica Integrativa</b> representa uma perspectiva ampliada da relação entre terapeuta e cliente, visando promover uma vida com bem-estar e equilíbrio, conduzindo o indivíduo na Jornada de autoconhecimento, reduzindo ou eliminando as dificuldades existentes, ressignificando e instrumentalizando o indivíduo para que possa lidar com maior parcimônia na resolução de seus problemas físicos, mentais e emocionais. O objetivo é trabalhar o estado do 'ser', permitindo a melhora do equilíbrio entre corpo, mente e espírito, proporcionar equilíbrio e ampliação da qualidade de vida. <br><br> A <b>Terapia Quântica Integrativa</b> traz na sua essência uma visão holística que integra o corpo, as emoções e a alma da pessoa, ou seja, oferece uma visão mais ampla do ser humano nas áreas da vida.<br><br><br> <b>Agende uma sessão!</b> ";
@@ -27,11 +28,15 @@ let text_08 = "";
 let title_09 = "Oficina Escrita Terapêutica";
 let text_09 = "A escrita é essencial na nossa vida, mais do que uma forma de registro, de contar histórias e deixá-las registradas, ela é uma poderosa ferramenta que podemos utilizar na busca de autoconhecimento e para podermos entender nossos sentimentos acerca das experiências que vamos vivenciando ao longo de nossa vida. <br><br> A Oficina de Escrita Terapêutica tem por objetivo auxiliar você na Jornada de Autoconhecimento através da escrita, desbloqueando e instrumentalizando este processo, visando agregar na sua vida uma nova visão das suas experiências. <br><br> Ela acontece em dois formatos: em grupo ou individual.  Ambos os formatos são disponibilizados de forma online ou presencial. Tem duração de 1h30min. Os grupos são de no máximo 6 participantes. <br><br> Colocar seus sentimentos no papel é uma poderosa ferramenta que te auxilia na resolução de problemas, que muitas vezes represamos dentro de nós. A escrita terapêutica é uma prática que nos auxilia na busca do autoconhecimento e entender nossos sentimentos. <br><br> Este processo consiste em escrever livremente sobre os sentimentos, sem se preocupar com estrutura do texto, rimas ou regras gramaticais. O intuito é de que ela ocorra de maneira natural, sem programar o que será exposto.<br><br> Tornar a Escrita Terapêutica um hábito vai transformar sua vida!<br><br> Na oficina faremos diversos exercícios de escrita para incentivá-la a criar este hábito, bem como ajudar a refletir sobre seus sentimentos e comportamentos, utilizando os benefícios para sua evolução pessoal. <br><br> Na Oficina você dará os primeiros passos na sua jornada de autoconhecimento, ampliando sua busca de equilibrar suas emoções, vai adquirir ferramentas que auxiliam na organização dos pensamentos, melhorando sua comunicação consigo e com os que a cercam,  bem como, estabelecer um compromisso consigo mesmo que gera satisfação pessoal e auto disciplina. <br><br> O hábito da Escrita Terapêutica lhe ajudará em todas as áreas da vida dando consistência e continuidade ao seu caminho.  <br><br> <b>Venha participar!</b>";
 
+let title_10 = "Agendamento - Marceli (WhatsApp)";
+let title_11 = "Agendamento - Elisiane (WhatsApp)";
+
 let copyright = "Website developed by / Site Desenvolvido por Davi Brinhosa ©2022";
 
 document.getElementById("main_title").innerHTML = `${main_title}`;
 document.getElementById("title_01").innerHTML = `${title_01}`;
 document.getElementById("text_01").innerHTML = `${text_01}`;
+document.getElementById("img_section_01").innerHTML = `${img_01}`;
 document.getElementById("title_02").innerHTML = `${title_02}`;
 document.getElementById("text_02").innerHTML = `${text_02}`;
 document.getElementById("title_03").innerHTML = `${title_03}`;
@@ -48,4 +53,14 @@ document.getElementById("title_08").innerHTML = `${title_08}`;
 document.getElementById("text_08").innerHTML = `${text_08}`;
 document.getElementById("title_09").innerHTML = `${title_09}`;
 document.getElementById("text_09").innerHTML = `${text_09}`;
+document.getElementById("title_10").innerHTML = `${title_10}`;
+document.getElementById("title_11").innerHTML = `${title_11}`;
 document.getElementById("copyright").innerHTML = `${copyright}`;
+
+document.getElementById("button_10").onclick  = function() {
+    window.open('https://wa.me/5548991782760','_blank');
+}
+
+document.getElementById("button_11").onclick  = function() {
+    window.open('https://wa.me/5548991782760','_blank');
+}
