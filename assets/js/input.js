@@ -2,7 +2,7 @@ let main_title = "Espaço la vie";
 
 let title_01 = "Quem Somos";
 let text_01 = "Somos amigas desde 1988. E desde sempre pensávamos em trabalhar juntas. No entanto, a vida nos colocou em caminhos diferentes por muitos anos.<br><br> Nesse meio tempo, fizemos faculdade, tivemos filhos, construímos nossas carreiras (não necessariamente nessa mesma ordem), mas em caminhos distintos: Elisiane na Educação e Marcelli no Meio Ambiente. <br><br> Os filhos cresceram, a vida foi de certa forma se acalmando. Por vezes não nos entendíamos enquanto mulheres: o que queríamos, quem éramos, o que precisávamos entender. <br><br> Cada uma a sua maneira buscou o autoconhecimento, buscou a sua essência. E quis o destino que aqui a junção se concretizasse: Percebemos que, apesar de termos escolhido ferramentas diferentes para nos orientar nesse “Olhar para dentro”, elas se complementavam.<br><br> <b>Assim surge o Espaço La Vie.</b>";
-let img_01 = '<img id="img_01" class="img_01" src="./assets/img/quem-sou-marceli.jpg" /><img id="img_01" class="img_01" src="./assets/img/quem-sou-elisiane.jpg" />';
+let img_01 = '<img id="img_01" class="img_01" src="./assets/img/quem-sou-marceli.png" /><img id="img_01" class="img_01" src="./assets/img/quem-sou-elisiane.png" />';
 
 let title_02 = "Terapia Quântica Integrativa";
 let text_02 = "A <b>Terapia Quântica Integrativa</b> é o resultado da junção do conjunto de práticas e técnicas com foco nos cuidados com a saúde, considerando essa como “um estado de completo bem-estar físico, mental e social e não apenas a ausência de doença”(OMS, 1947). <br><br> O conceito de <b>Terapia Quântica Integrativa</b> representa uma perspectiva ampliada da relação entre terapeuta e cliente, visando promover uma vida com bem-estar e equilíbrio, conduzindo o indivíduo na Jornada de autoconhecimento, reduzindo ou eliminando as dificuldades existentes, ressignificando e instrumentalizando o indivíduo para que possa lidar com maior parcimônia na resolução de seus problemas físicos, mentais e emocionais. O objetivo é trabalhar o estado do 'ser', permitindo a melhora do equilíbrio entre corpo, mente e espírito, proporcionar equilíbrio e ampliação da qualidade de vida. <br><br> A <b>Terapia Quântica Integrativa</b> traz na sua essência uma visão holística que integra o corpo, as emoções e a alma da pessoa, ou seja, oferece uma visão mais ampla do ser humano nas áreas da vida.<br><br><br> <b>Agende uma sessão!</b> ";
@@ -58,7 +58,7 @@ document.getElementById("title_11").innerHTML = `${title_11}`;
 document.getElementById("copyright").innerHTML = `${copyright}`;
 
 document.getElementById("button_10").onclick  = function() {
-    window.open('https://wa.me/5548991782760','_blank');
+    window.open('https://wa.me/5548992033182','_blank');
 }
 
 document.getElementById("button_11").onclick  = function() {

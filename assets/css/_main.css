@@ -84,6 +84,10 @@
     width: auto;
 }
 
+.button.active .text{
+    display: block;
+}
+
 .img_section {
     display: none;
     flex-wrap: wrap;
@@ -93,8 +97,13 @@
     transition: .75s;
 }
 
+.button.active .img_section{
+    display: flex;
+}
+
 .img_01 {
     width: 50%;
+    mix-blend-mode: multiply;
 }
 
 @media(max-width: 1280px) {
@@ -119,14 +128,15 @@
 @media(min-width: 1280px) {
     .button:hover {
         padding: 1rem 5rem;
-        background-color: #999B84;
-        color: #F4EEED;
+        background-color: #EFD9D1;
+        background-image: linear-gradient(90deg, #DDB7AB 0%, #EFD9D1 10%, #EFD9D1 90%, #DDB7AB 100%);
+        color: #000000;
         transition: .75s;
     }
     
     .button:hover .text {
-        color: #F4EEED;
-        display: none;
+        color: #000000;
         transition: .75s;
     }
+
 }
