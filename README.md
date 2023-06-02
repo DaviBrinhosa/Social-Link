@@ -1,4 +1,4 @@
-Webpage with Social Links
+Website with Social Links
 # About the project
 
 [Application under development!!!]
