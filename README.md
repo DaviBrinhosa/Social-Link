@@ -1,11 +1,11 @@
 Webpage with Social Links
-# Sobre o Projeto
+# About the project
 
-[Aplicação em desenvolvimento!!!]
+[Application under development!!!]
 
-Este é o **Social-Link**, é um projeto feito para cliente no intuito de funcionar semelhante ao Linktree porem de forma gratuita e personalizada.
+This is **Social-Link**, it is a project made for a client in order to work similarly to Linktree but in a free and personalized way. You can see the website working at: [Website](https://nft-future.netlify.app)
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - HTML
 - CSS
