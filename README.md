@@ -1,4 +1,4 @@
-Projetos do Intensivo Python
+Webpage with Social Links
 # Sobre o Projeto
 
 [Aplicação em desenvolvimento!!!]
