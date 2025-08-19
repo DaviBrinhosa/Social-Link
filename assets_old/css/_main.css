@@ -24,7 +24,7 @@
 }
 
 .copyright {
-	color: #4b6464;
+	color: #999B84;
     text-align: center;
 	text-transform: uppercase;
 	font-size: .8rem;
@@ -61,10 +61,10 @@
 
     margin: .75rem 0;
     padding: 1rem 4rem;
-    border: 2px solid #4b6464;
+    border: 2px solid #999B84;
     border-radius: 1.5rem;
-    background-color: #ffffff;
-    color: #4b6464;
+    background-color: #F4EEED;
+    color: #999B84;
     cursor: pointer;
     width: 80%;
 }
@@ -77,7 +77,7 @@
 
 .text {
     text-align: center;
-    color: #4b6464;
+    color: #999B84;
     display: none;
     font-size: 1rem;
     transition: .75s;
@@ -128,8 +128,8 @@
 @media(min-width: 1280px) {
     .button:hover {
         padding: 1rem 5rem;
-        background-color: #9fe7e7;
-        background-image: linear-gradient(90deg, #9fe7e7 0%, #b1f1f1 20%, #b1f1f1 80%, #9fe7e7 100%);
+        background-color: #EFD9D1;
+        background-image: linear-gradient(90deg, #DDB7AB 0%, #EFD9D1 10%, #EFD9D1 90%, #DDB7AB 100%);
         color: #000000;
         transition: .75s;
     }

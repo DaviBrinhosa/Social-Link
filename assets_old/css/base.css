@@ -1,0 +1,31 @@
+@import url(_normalize.css);
+
+@import url(_reset.css);
+
+@import url(_main.css);
+
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+.body {
+    background-color: #EFD9D1;
+    background-image: linear-gradient(90deg, #DDB7AB 0%, #EFD9D1 20%, #EFD9D1 80%, #DDB7AB 100%);
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+}
+
+/* Cores Principais:
+#999B84
+#F4EEED
+#EFD9D1
+#DDB7AB
+
+Lista de Tarefas:
+-Arrumar o bug de clicar fora do titulo e mexer na sessão 1
+-Arrumar os textos
+-Inserir botão no texto: Agendar Sessão e enviar para o whats app
+-Inserir botão no texto: Link do questionario
+-Otimizar o CSS e Mobile
+*/
