@@ -1,57 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="icon" href="./assets/img/favicon.png">
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900"/>
-        <title id="main_title"></title>
-        <link href="./assets/css/base.css" rel="stylesheet" />
-    </head>
-    <body class="body">
-        <header class="header">
-            <img alt="Lar dos Gateados" class="logo" src="./assets/img/logo-color01.png" />
-        </header>
-        <main class="main">
-            <div class="center__menu">
-                <article id="button_01" class="button">
-                    <h3 id="about_us_title" class="text_title"></h3>
-                    <p id="about_us_text" class="text"></p>
-                    <div id="about_us_img" class="img_section"></div>
-                </article>
-                <article id="button_02" class="button">
-                    <h3 id="our_store_title" class="text_title"></h3>
-                    <p id="our_store_text" class="text"></p>
-                    <div id="img_section_02" class="img_section"></div>
-                </article>
-                <article id="button_03" class="button">
-                    <h3 id="donate_title" class="text_title"></h3>
-                    <p id="donate_text" class="text""></p>
-                    <div id="img_section_03" class="img_section"></div>
-                </article>
-                <article id="button_04" class="button">
-                    <h3 id="castration_title" class="text_title"></h3>
-                    <p id="castration_text" class="text"></p>
-                    <div id="img_section_04" class="img_section"></div>
-                </article>
-                <article id="whatsapp_button" class="button">
-                    <h3 id="whatsapp_title" class="text_title"></h3>
-                </article>
-                <article id="instagram_button" class="button">
-                    <h3 id="instagram_title" class="text_title"></h3>
-                </article>
-            </div>
-        </main>
-        <footer class="footer">
-            <div id="copyright" class="copyright"></div>
-            <div class="social__icon"></div>
-            <div class="social__icon"></div>
-            <div class="social__icon"></div>
-        </footer>
-        <script src="./assets/js/input.js"></script>
-        <script src="./assets/js/index.js"></script>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Título e SEO -->
+    <title id="main_title">Lar dos Gateados</title>
+    <meta name="description" content="O Lar dos Gateados acolhe, resgata e cuida de cães e gatos em situação de vulnerabilidade. Saiba como ajudar e apoiar nossa causa.">
+    <meta name="keywords" content="adoção, gatos, cães, lar dos gateados, resgate animal, proteção animal">
+    <meta name="author" content="Davi Brinhosa" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/favicon.png" type="image/png">
+
+    <!-- Open Graph para redes sociais -->
+    <meta property="og:title" content="Lar dos Gateados" />
+    <meta property="og:description" content="Ajude cães e gatos resgatados pelo Lar dos Gateados. Doe, adote ou contribua com nossa loja solidária!" />
+    <meta property="og:image" content="./assets/img/logo-color01.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Fontes e CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900"/>
+    <link href="./assets/css/base.css" rel="stylesheet" />
+</head>
+<body class="body">
+    <!-- HEADER -->
+    <header class="header">
+        <img src="./assets/img/logo-color01.png" alt="Logo Lar dos Gateados" class="logo" />
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main">
+        <div class="center__menu">
+            <!-- Quem somos -->
+            <article id="button_01" class="button">
+                <h3 id="about_us_title" class="text_title"></h3>
+                <p id="about_us_text" class="text"></p>
+                <div id="about_us_img" class="img_section"></div>
+            </article>
+
+            <!-- Nossa loja -->
+            <article id="button_02" class="button">
+                <h3 id="our_store_title" class="text_title"></h3>
+                <div class="text">
+                    <p id="our_store_text"></p>
+                    <div id="store_link" class="img_section">
+                        <a href="https://shopee.com.br/" target="_blank" class="shop-button">
+                            <h3 id="our_store_subtitle" class="text_subtitle"></h3> 
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Doações -->
+            <article id="button_03" class="button">
+                <h3 id="donate_title" class="text_title"></h3>
+                <div class="text">
+                    <p id="donate_text"></p>
+                    <div id="donate_qrcode" class="img_section">
+                    <img src="./assets/img/qrcode_pix.jpg" alt="QR Code Pix para doações" class="qrcode_pix">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Castração -->
+            <article id="button_04" class="button">
+                <h3 id="castration_title" class="text_title"></h3>
+                <p id="castration_text" class="text"></p>
+                <div id="img_section_04" class="img_section"></div>
+            </article>
+
+            <!-- Botões de contato -->
+            <article id="whatsapp_button" class="button">
+                <h3 id="whatsapp_title" class="text_title"></h3>
+            </article>
+            <article id="instagram_button" class="button">
+                <h3 id="instagram_title" class="text_title"></h3>
+            </article>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div id="copyright" class="copyright"></div>
+        <!-- Ícones sociais opcionais -->
+        <div class="social__icon"></div>
+        <div class="social__icon"></div>
+        <div class="social__icon"></div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./assets/js/input.js" defer></script>
+    <script src="./assets/js/index.js" defer></script>
+</body>
 </html>

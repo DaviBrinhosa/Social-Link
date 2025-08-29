@@ -70,18 +70,24 @@
 }
 
 .text_title {
-    text-align: center;
-    font-size: 1.5rem;
-    width: auto;
+    text-align: center; /* mantém o título centralizado */
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .text {
-    text-align: center;
-    color: #4b6464;
-    display: none;
+    display: none; /* permanece oculto até expandir */
     font-size: 1rem;
-    transition: .75s;
-    width: auto;
+    color: #4b6464;
+    line-height: 1.6;       /* melhora leitura */
+    text-align: left;       /* mais natural que centralizado */
+    padding: 1rem 2rem;     /* espaçamento interno */
+    margin-top: 0.5rem;
+    background-color: #f5f5f5; /* fundo suave para destaque */
+    border-radius: 1rem;
+    border: 1px solid #d1d1d1; /* borda leve */
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1); /* sombra suave */
+    transition: all 0.5s ease;
 }
 
 .button.active .text{
@@ -105,6 +111,38 @@
     width: 50%;
     mix-blend-mode: multiply;
 }
+
+.shop-button {
+    display: none; 
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #00a7a8;
+    color: #fff;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button.active .shop-button {
+    display: inline-block;
+}
+
+.shop-button:hover {
+    background-color: #028f8f;
+}
+
+.qrcode_pix {
+    display: block;
+    margin: 1rem auto 0 auto;
+    max-width: 200px;
+    width: 60%;
+    border: 2px solid #4b6464;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+
 
 @media(max-width: 1280px) {
     .center__menu {
