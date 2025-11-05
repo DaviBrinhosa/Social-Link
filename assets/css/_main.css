@@ -108,7 +108,7 @@
     mix-blend-mode: multiply;
 }
 
-.shop-button {
+.link-button {
     display: none; 
     margin-top: 1rem;
     padding: 0.8rem 1.5rem;
@@ -120,11 +120,11 @@
     transition: background 0.3s;
 }
 
-.button.active .shop-button {
+.button.active .link-button {
     display: inline-block;
 }
 
-.shop-button:hover {
+.link-button:hover {
     background-color: #028f8f;
 }
 
@@ -158,7 +158,7 @@
         font-size: 1.3rem;
     }
 
-    .shop-button {
+    .link-button {
         width: 90%;
         padding: 0.8rem 1rem;
         font-size: 1.1rem;

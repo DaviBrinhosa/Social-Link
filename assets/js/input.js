@@ -6,9 +6,9 @@ const content = {
     about_us_text: `
         O <b>Lar dos Gateados</b> é um importante espaço de acolhimento e proteção animal que atua em favor de cães e gatos em situação de vulnerabilidade.  
         <br><br> Com mais de 10 anos de atuação, a iniciativa se dedica a resgatar, cuidar e encontrar lares responsáveis para os animais. Suas principais atividades incluem:  
-        <br><br> <b>Acolhimento de Cães e Gatos</b>: Oferecem abrigo seguro para animais resgatados, muitos deles vítimas de abandono ou maus-tratos.  
-        <br><br> <b>Tratamento e Bem-Estar</b>: Os animais sob seus cuidados são castrados, vacinados e vermifugados, garantindo que sejam encaminhados para a adoção com a saúde em dia.  
-        <br><br> <b>Encaminhamento para Adoção</b>: Um de seus objetivos centrais é encontrar lares definitivos e amorosos, garantindo que os ''gateados'' (como carinhosamente se referem aos bichinhos) tenham a chance de viver com dignidade e segurança.  
+        <br><br> <b>🐶🐱 Acolhimento de Cães e Gatos</b>: Oferecem abrigo seguro para animais resgatados, muitos deles vítimas de abandono ou maus-tratos.  
+        <br><br> <b>🏥💊 Tratamento e Bem-Estar</b>: Os animais sob seus cuidados são castrados, vacinados e vermifugados, garantindo que sejam encaminhados para a adoção com a saúde em dia.  
+        <br><br> <b>🛡️💕 Encaminhamento para Adoção</b>: Um de seus objetivos centrais é encontrar lares definitivos e amorosos, garantindo que os ''gateados'' (como carinhosamente se referem aos bichinhos) tenham a chance de viver com dignidade e segurança.  
         <br><br> Além de acolher seus próprios resgates, o <b>Lar dos Gateados!</b> também tem um papel de apoio a outras protetoras e iniciativas individuais, atuando em uma rede solidária para maximizar o auxílio aos animais que precisam.  
         <br><br> A manutenção do lar e dos cuidados veterinários depende da ajuda da comunidade, sendo fundamental o apoio por meio de doações e a participação em campanhas, como as de castração, que são essenciais para o controle populacional e a saúde dos bichinhos.  
         <br><br> É um trabalho contínuo, movido pela paixão e dedicação à causa animal.  
@@ -27,7 +27,7 @@ const content = {
         <br><br> * 💊 <b>Saúde</b>: Vacinas, vermífugos e medicamentos essenciais.  
         <br><br> Compre com o coração! Navegue em nossa loja, encontre aquele item que você estava procurando e sinta a satisfação de saber que sua compra está salvando vidas.  
         <br><br> Seu apoio nos move. Sua compra salva!  
-        <br><br> Venha ser padrinho ou madrinha dos nossos bichinhos!  
+        <br><br> VISTA A CAUSA! APOIE O LAR DOS GATEADOS!  
     `,
     our_store_subtitle: " 🛍️ Visite Nossa Loja Solidária ",
 
@@ -47,18 +47,27 @@ const content = {
     castration_text: `
         A castração salva vidas! ✂️🐱🐶  
         <br><br> A superpopulação de animais abandonados é um dos maiores desafios que enfrentamos.  
-        <br><br> Por isso, promovemos campanhas de <b>castração a preços acessíveis</b> para cães e gatos, ajudando a controlar a população e evitar o abandono.  
+        <br><br> Por isso, promovemos campanhas de <b>castração para cães e gatos</b>, ajudando a controlar a população e evitar o abandono.  
         <br><br> Benefícios da castração:  
         <br><br> * 🛡️ <b>Previne doenças graves</b>.  
         <br><br> * 🐾 <b>Reduz o abandono</b>.  
         <br><br> * 💕 <b>Proporciona uma vida mais saudável e tranquila</b>.  
-        <br><br> Entre em contato conosco e agende a castração do seu bichinho!  
-        <br><br> Vamos juntos salvar mais vidas! 🐾
+        <br><br> Entre em contato conosco e nos ajude com as castrações no botão abaixo:  
     `,
+    castration_subtitle: " 🐾 Vamos juntos salvar mais vidas! ",
+
+    brecho_title: "Brechó de Livros",
+    brecho_text: `
+        📚 Brechó de Livros: Uma História te Espera! 🐾
+        <br><br> Dê uma nova vida a livros novos e usados e, ao mesmo tempo, faça uma grande diferença!
+        <br><br> Nosso "Brechó de Livros" está recheado de histórias incríveis, esperando para irem para suas mãos!
+        <br><br> O melhor de tudo? Toda a renda obtida com a venda será integralmente revertida para o Lar dos Gateados, ajudando a garantir cuidados, alimentação e um lar seguro para nossos amigos de quatro patas.
+    `,
+    brecho_subtitle: " ✨ Compre um livro, mude uma vida! ✨ ",
 
 
-    whatsapp_title: "Contato - Elisiane (WhatsApp)",
-    instagram_title: "Contato - Elisiane (Instagram)",
+    whatsapp_title: "Contato - WhatsApp",
+    instagram_title: "Contato - Instagram - Lar dos Gateados",
 
     copyright: "Website developed by / Site Desenvolvido por Davi Brinhosa ©2025",
 };
