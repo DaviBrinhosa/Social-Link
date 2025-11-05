@@ -72,10 +72,12 @@ const content = {
     copyright: "Website developed by / Site Desenvolvido por Davi Brinhosa ©2025",
 };
 
-// Atualiza automaticamente os elementos da página
-Object.entries(content).forEach(([id, text]) => {
+// Atualiza automaticamente os elementos da página + Sanitize
+Object.entries(content).forEach(([id, html]) => {
     const element = document.getElementById(id);
-    if (element) element.innerHTML = text;
+    if (element) {
+        element.innerHTML = DOMPurify.sanitize(html);
+    }
 });
 
 // Botões de redes sociais
@@ -86,5 +88,16 @@ const socialLinks = {
 
 Object.entries(socialLinks).forEach(([id, url]) => {
     const button = document.getElementById(id);
-    if (button) button.onclick = () => window.open(url, "_blank");
+    if (button) {
+        try {
+            const parsedUrl = new URL(url);
+            if (parsedUrl.protocol === "https:") {
+                button.onclick = () => window.open(url, "_blank", "noopener,noreferrer");
+            } else {
+                console.warn(`URL insegura bloqueada: ${url}`);
+            }
+        } catch {
+            console.warn(`URL inválida ignorada: ${url}`);
+        }
+    }
 });
