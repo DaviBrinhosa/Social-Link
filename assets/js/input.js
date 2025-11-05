@@ -40,7 +40,7 @@ const content = {
         <br><br> * 💳 <b>Doação financeira</b>: via Pix, depósito bancário ou transferência.  
         <br><br> * 🥣 <b>Doação de ração e medicamentos</b>.  
         <br><br> * 🛠️ <b>Voluntariado</b>: ajude com transporte, lar temporário ou apoio em feiras de adoção.  
-        <br><br> Escaneie o QR Code abaixo ou utilize o PIX(lar.dos.gateados@pix.com.br) para doar com facilidade:
+        <br><br> Escaneie o QR Code abaixo ou utilize o PIX(48 99117-8383) para doar com facilidade:
     `,
 
     castration_title: "Castração",
