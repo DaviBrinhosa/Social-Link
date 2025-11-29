@@ -30,6 +30,7 @@ const content = {
         <br><br> VISTA A CAUSA! APOIE O LAR DOS GATEADOS!  
     `,
     our_store_subtitle: " 🛍️ Visite Nossa Loja Solidária ",
+    our_store_subtitle2: " 🛍️ Loja alternativa via Shopee",
 
     donate_title: "Doações",
     donate_text: `
